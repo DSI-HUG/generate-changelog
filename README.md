@@ -101,4 +101,4 @@ To contribute, please see the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 ## License
 
-This project is released under the MIT license, which can be found in [`LICENSE.txt`](LICENSE.txt).
+This project is released under the Apache 2 license, which can be found in [`LICENSE.txt`](LICENSE.txt).
