@@ -51,5 +51,8 @@
   },
   "engine": {
     "node": ">= 0.10.x"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
