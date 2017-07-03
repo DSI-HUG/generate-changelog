@@ -1,23 +1,23 @@
 language: node_js
 sudo: false
 node_js:
-  - '6'
-  - '7'
+- '6'
+- '7'
 branches:
   only:
   - master
   - dev
 script:
-  - npm test
-  - npm run lint
+- npm test
+- npm run lint
 after_script:
-  - npm run coveralls
+- npm run coveralls
 deploy:
   provider: npm
   email: gmer@hcuge.ch
   skip_cleanup: true
   api_key:
-    secure: qW5srlnj3UiSkQGwUv07NfyQ18Ry9emfqUXKroDuRr7q5Ip5GJ3DUGoJYJLRehHjT98YSHwUBhW9VvEgI4SopX8SMr4mPyRqU/uUL8IAcJH3kgzsBD2laDf/MPraGHOD3vg4ILZDjMWZaRmfAp2Wr2316OWiTEYGRyK7SmYH5FjLiV6NT1Iif11kRCfZKTb7HXzkldJ8kQ2zocLmihURGobRo7E4eMeYlqA+KNQkzMxcYf1SaJW8uYbWlhDY3DhyBTtMZUUV9qcH4nJ0lVGqlVpaR/+FM53pDRNlViqFZJTpvfYD8kArBjz4XF3memzd5OoG3S5+ZtjYJcUDcRPHJHqugGYFilMSdfzgol28HQlgDCaTTmA2ISOEYkxMhyqBL6LzzoHKC386eA2UbZFWYbRqx1RadDFJjAerLP4VLrOrDZOIOtrORHuFUXE8qmKW5ECSpb4W3bT3QuUr6qePTZ3jIcq31jfP317sWAjEYMMDZF4EykeaGTv6smaGdXyq5byjnfXCwzQzV8OPOwYNGTMnzWuEEU5hK/URWW1XzShxtSsnvMXP+JP8oYdJl83xSmNQJgs3aradk6LL6uI3VDcz9qnbNBJeW/uUCLBU/xPaEO65WtLeG54QbKA8oxjueRWmIAg/hiYm/N+vQaPV5mqN57D1r80b85HBgybMvfs=
+    secure: MfnzVfTBhHcGjr6/RPW+ipxhNBmVlLZsoAZ8eyJ8AJ+o3VV/6CHec2znb2E78MsQAMU2yK/TLYzPxe2dSNF90ifYonsr4cVypoxKCabxSf1nN3qzwUKbAYDGjb6Md7qM67dDEq6umDoWS+hFHCCYUnT2kK3WA6Zvrx6o4Vzy/BwRftvLt+a9Lfk8BfjDqwTM/dOtVeO86G4N5iTZ+4njISjB73lZJukN6ccD9v+Wr7vxL8U4CLbk+MamYbnQDJEbiPGAT+fksijCH81IevWOVQKneBasegneKZWdFbPEaelORTygqu2ChIBs6B6DU1lRcKabpIZ3Jpnz8W0PiIjDHGEssEDKcTU89xQugZ27UyOu0rW8XH1qnot2UCBkN3PQMNGg4DEaNYe8NP2VGrppa0hMAlXYXNelhOFp80GSMgNbA2WUmTjplTqakYV3JNXJ2EI8OZ1jhOdUT/p+9nHNADU5GGNMXQpiGtFsvwVtXlzwqCtzDeDVTkJLtrghfVPmQNHVjE9VUAS8jvlx0cMWV+uKNQVn+mBOfeSNbx/Y+OYrVfgM0PnQ+i2GbIfzAqkf4xTjY3n8v5yjWniKnw+7j5IyZN94Wmr1Gy8vPZOdwUx4gHhCc3e3eWmZV1B7yEua7Jy3ZPLPuc8MlKP1g/Chsc0gLLOrVpdPaEEU5H5JFNs=
   on:
     repo: DSI-HUG/generate-changelog
     branch: master
