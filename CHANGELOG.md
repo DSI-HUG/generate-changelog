@@ -1,3 +1,16 @@
+#### 1.3.1 (2017-07-03)
+
+##### New Features
+
+* **BreakingChange:** Add breaking changes support ([e21a50b2](https://github.com/DSI-HUG/generate-changelog/commit/e21a50b2d9396b08211f1ea93e63e0afe694266d))
+
+##### Other Changes
+
+* **Global:** Add yarn.lock ([4e14c9a7](https://github.com/DSI-HUG/generate-changelog/commit/4e14c9a71252f66a4399bb10fdd119c3ae75610c))
+* **Travis:**
+  * Add travis config ([d67a0a38](https://github.com/DSI-HUG/generate-changelog/commit/d67a0a387f904ce574854d19b06c8972ec4fe650))
+  * Node version ([fd5ebe16](https://github.com/DSI-HUG/generate-changelog/commit/fd5ebe16340881d4241e93b0c9a5175d6b7184dd))
+
 ### 1.3.0 (2017-06-25)
 
 ##### New Features
