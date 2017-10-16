@@ -1,3 +1,10 @@
+### 1.4.0 (2017-10-16)
+
+##### New Features
+
+* **Breaking:** Add breaking change detail in changelog ([092d4075](https://github.com/DSI-HUG/generate-changelog/commit/092d407558d114610007cfddcfe036d8be2346ab))
+* **Commit:** Ignore unknow type in commit message ([0d9ca8dc](https://github.com/DSI-HUG/generate-changelog/commit/0d9ca8dc41fd1c715294ac45b3b83af95f7a4208))
+
 #### 1.3.1 (2017-07-03)
 
 ##### New Features
